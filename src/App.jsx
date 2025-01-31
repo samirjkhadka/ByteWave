@@ -9,15 +9,15 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden pt-[4.75rem] lg:pt-[5.25rem]">
       <Header />
-      <Hero/>
-      <Benefits/>
-      <Collaboration/>
-      <Services/>
-      <Pricing/>
-      <Roadmap/>
-      <Footer/>
+      <Hero />
+      <Benefits />
+      <Collaboration />
+      <Services />
+      <Pricing />
+      <Roadmap />
+      <Footer />
     </div>
   );
 }
