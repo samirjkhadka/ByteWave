@@ -30,7 +30,7 @@ const Pricing = () => {
           tag="Get started with Brainwave"
           title="Pay once, use forever"
         />
-        <div className="">
+        <div className="relative">
           <PricingList />
           <LeftLine />
           <RightLine />
